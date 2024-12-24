@@ -1,0 +1,51 @@
+.container {
+  padding: 20px;
+}
+
+.buttonContainer {
+  margin-bottom: 20px;
+  display: flex;
+  gap: 10px;
+}
+
+.button {
+  padding: 6px 12px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  background-color: #fff;
+  cursor: pointer;
+}
+
+.button:disabled {
+  cursor: not-allowed;
+  opacity: 0.7;
+}
+
+.homeLink {
+  padding: 6px 12px;
+  background-color: #f0f0f0;
+  border-radius: 4px;
+  text-decoration: none;
+  color: #333;
+  border: 1px solid #ccc;
+}
+
+.listContainer {
+  margin-top: 20px;
+}
+
+.loadingMessage {
+  color: blue;
+  margin-bottom: 10px;
+}
+
+.list {
+  max-height: 400px;
+  overflow-y: auto;
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+.listItem {
+  margin: 5px 0;
+}
